@@ -20,7 +20,7 @@
 		This is the Window 01
 	</fos-window>
 
-	<fos-window name="a2" title="Window 1">
+	<fos-window name="a2" title="Window 2">
 		<fos-bar position="top">
 			<fos-menu name="Menu">
 				<fos-menu-item href="panel1">Panel 1</fos-menu-item>
@@ -42,12 +42,14 @@
 		<fos-menu name="App">
 			<fos-menu-item>
 				<fos-menu name="App1">
-					<fos-menu-item> Ola </fos-menu-item>
+					<fos-menu-item href="a1"> Launch app 1 </fos-menu-item>
 				</fos-menu>
 			</fos-menu-item>
-			<fos-menu-item >				<fos-menu name="App1">
-					<fos-menu-item> Ola 3</fos-menu-item>
-				</fos-menu></fos-menu-item>
+			<fos-menu-item >
+			    <fos-menu name="App2">
+					<fos-menu-item href="a2"> Launch app 2</fos-menu-item>
+				</fos-menu>
+			</fos-menu-item>
 		</fos-menu>
 	</fos-bar>
 
