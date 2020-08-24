@@ -1,4 +1,4 @@
-# FOStutorial
+# FOS Tutorial
 
 A git repository to go along with a tutorial for using [FOS](https://github.com/victorqribeiro/fos) to build a web app
 
