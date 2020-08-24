@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> FOS - Tutorial </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script src="js/fos.min.js"></script>
+</head>
+<body>
+
+<fos-desktop>
+
+	<fos-icon href="a1">A</fos-icon>
+	
+	<fos-icon href="a2">B</fos-icon>
+	
+	<fos-window name="a1" title="Window 1">
+		This is the Window 01
+	</fos-window>
+
+	<fos-window name="a2" title="Window 1">
+		<fos-bar position="top">
+			<fos-menu name="Menu">
+				<fos-menu-item href="panel1">Panel 1</fos-menu-item>
+				<fos-menu-item href="panel2">Panel 2</fos-menu-item>
+			</fos-menu>
+		</fos-bar>
+		<br>
+		<br>
+		<br>
+		<fos-panel name="panel1" selected>
+			This is the panel number 1.
+		</fos-panel>
+		<fos-panel name="panel2">
+			You can use panels to divide content inside a window object.
+		</fos-panel>
+	</fos-window>
+
+	<fos-bar>
+		<fos-menu name="App">
+			<fos-menu-item>
+				<fos-menu name="App1">
+					<fos-menu-item> Ola </fos-menu-item>
+				</fos-menu>
+			</fos-menu-item>
+			<fos-menu-item >				<fos-menu name="App1">
+					<fos-menu-item> Ola 3</fos-menu-item>
+				</fos-menu></fos-menu-item>
+		</fos-menu>
+	</fos-bar>
+
+</fos-desktop>
+
+</body>
+</html>
